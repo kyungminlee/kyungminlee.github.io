@@ -1,0 +1,47 @@
+div {
+  margin:0px;
+}
+div#all {
+  max-width:55em;
+  height:100%;
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#181712;
+  padding:0px;
+  border:0px;
+}
+div#menu {
+  height:1.5em;
+  float:top;
+  text-align:right;
+  margin:0px;
+}
+div#profile {
+  margin-top:1.5em;
+  width:160px;
+  float:left;
+}
+div#profile-photo {
+  float:right;
+}
+div#profile-text {
+  float:right;
+  text-align:right;
+}
+div#profile-icon {
+  float:right;
+  text-align:right;
+}
+div#main {
+  margin-left: 200px;
+}
+a, a:link, a:visited {
+  color:#6ABED8; 
+  text-decoration:none; 
+}
+a.disabled {
+  color:#333333; 
+  text-decoration:none; 
+}

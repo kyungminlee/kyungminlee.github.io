@@ -1,0 +1,80 @@
+html {
+}
+body {
+  max-width:100%;
+  margin:0px;
+  background-color:#757571;
+  color:#B0ABA0;
+  font-family: 'Rosario', sans-serif;
+}
+div {
+  margin:0px;
+}
+div#all {
+  max-width:55em;
+  /* height:100%; */
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#181712;
+  padding:0px;
+  border:0px;
+}
+div#menu {
+  height:1.5em;
+  float:top;
+  text-align:right;
+  margin:0px;
+}
+div#profile {
+  height:100%;
+  margin-top:1.5em;
+  margin-right: 1em;
+  width:160px;
+  float:left;
+}
+div#profile-photo {
+  /* float:right; */
+  text-align: right;
+}
+div#profile-text {
+  /* float:right; */
+  text-align:right;
+  background-image: url("../img/cornell-dark.png");
+/*
+  background-image: url("../img/cornell.png");
+  background-color: rgba(24, 23, 18, 0.9);
+  background-blend-mode: color;
+*/
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+div#profile-icon {
+  /* float:right; */
+  text-align:right;
+  padding: 1em 1px;
+}
+div#main {
+  /* height:100%; */
+  min-height: 100%;
+  margin-left: 200px;
+  margin-right: 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+a, a:link, a:visited {
+  color:#6ABED8; 
+  text-decoration:none; 
+}
+a.disabled {
+  color:#333333; 
+  text-decoration:none; 
+}
+.focus {
+  color: #F0F0F0;
+  text-shadow: 0px 0px 20px #F0F000;
+  outline: 1px #000000;
+}
