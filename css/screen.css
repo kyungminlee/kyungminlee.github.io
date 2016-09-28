@@ -41,12 +41,8 @@ div#profile-photo {
 div#profile-text {
   /* float:right; */
   text-align:right;
-  background-image: url("../img/cornell-dark.png");
-/*
-  background-image: url("../img/cornell.png");
-  background-color: rgba(24, 23, 18, 0.9);
-  background-blend-mode: color;
-*/
+  background-image: url("../img/osu-dark.png");
+  background-size: 5em;
   background-repeat: no-repeat;
   background-position: right bottom;
 }
