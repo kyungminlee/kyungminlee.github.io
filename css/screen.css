@@ -35,11 +35,11 @@ div#profile {
   float:left;
 }
 div#profile-photo {
-  /* float:right; */
+   float:right; 
   text-align: right;
 }
 div#profile-text {
-  /* float:right; */
+   float:right;
   text-align:right;
   background-image: url("../img/osu-dark.png");
   background-size: 5em;
