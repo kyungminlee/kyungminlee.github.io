@@ -7,7 +7,7 @@ div {
 div#all {
   max-width:unset;
 }
-div#menu {
+nav {
 }
 div#profile {
   height:unset;
@@ -18,14 +18,14 @@ div#profile {
 div#profile-photo {
   float:left;
 }
-div#profile-text {
+address {
   float:right;
 }
 div#profile-icon {
   text-align:right;
   padding: 1em 1em;
 }
-div#main {
+main {
   margin-left: 1em;
   text-align:left;
 }
