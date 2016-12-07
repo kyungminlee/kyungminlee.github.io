@@ -10,6 +10,7 @@ div#all {
 nav {
 }
 div#profile {
+  overflow: hidden;
   height:unset;
   margin-right:unset;
   width:100%;
@@ -20,8 +21,10 @@ div#profile-photo {
 }
 address {
   float:right;
+  text-align:left;
 }
 div#profile-icon {
+  float: left;
   text-align:right;
   padding: 1em 1em;
 }
