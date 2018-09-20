@@ -110,7 +110,7 @@ a.small {
 .unfocus a, .unfocus a:link, .unfocus a:visited {
   color:#355F6C; 
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   div#all {
     max-width:unset;
   }
@@ -119,18 +119,19 @@ a.small {
     height:unset;
     margin-right:unset;
     width:100%;
-    float:unset;
+    float:none;
   }
   div#profile-photo {
-    float:left;
+    float:none;
+    text-align:center;
   }
   address {
-    float:right;
-    text-align:left;
+    float:none;
+    text-align:center;
   }
   div#profile-icon {
-    float: left;
-    text-align:right;
+    float: none;
+    text-align:center;
     padding: 1em 1em;
   }
   main {
