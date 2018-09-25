@@ -76,6 +76,7 @@ div#profile-icon {
   /* float:right; */
   text-align:right;
   padding: 1em 1px;
+  white-space: pre-line;
 }
 main {
   /* height:100%; */
@@ -97,7 +98,6 @@ a.disabled {
 }
 a.small {
   font-size:75%;
-
 }
 .focus {
   color: #E0E0E0;
@@ -133,6 +133,16 @@ a.small {
     float: none;
     text-align:center;
     padding: 1em 1em;
+    white-space: normal;
+  }
+  address {
+    float:center;
+    text-align:center;
+    background-image: url("../img/osu-dark.png");
+    background-size: 5em;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    font-style: normal;
   }
   main {
     margin-left: 1em;
