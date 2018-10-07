@@ -23,8 +23,8 @@ ul {
   margin-bottom: 0.75em;
 }
 li {
-  margin-top: 0.25em;
-  margin-bottom: 0.5em;
+  margin-top: 0.3em;
+  margin-bottom: 0.6em;
 }
 section {
   margin-top: 0em;
@@ -78,6 +78,11 @@ address {
   background-repeat: no-repeat;
   background-position: right bottom;
   font-style: normal;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(187, 187, 187, 0), rgba(187, 187, 187, 0.5), rgba(187, 187, 187, 0));
 }
 div#profile-icon {
   /* float:right; */
@@ -161,7 +166,7 @@ a.small {
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 6px;
-      margin-top: 6px;
+      margin-top: 15px;
       box-shadow: 3px 3px 6px;
   }
 }
