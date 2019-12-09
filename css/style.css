@@ -91,6 +91,15 @@ nav {
   float: top;
   text-align: right;
   margin: 0px;
+  font-size: 14px;
+  width: 100%;
+}
+nav a:hover {
+  background: #AAAAAA;
+  color: #000000;
+}
+.content {
+    margin-top: 30px;
 }
 img.preview {
   float: right;
@@ -138,6 +147,9 @@ address {
     text-align:center;
     padding: 1em 1em;
     white-space: normal;
+  }
+  nav {
+    visibility: hidden;
   }
   address {
     text-align:center;
