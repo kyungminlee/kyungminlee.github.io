@@ -1,0 +1,290 @@
+$navbar-width-large: 360px;
+$navbar-width-small: 260px;
+$main-padding: 30px;
+$profile-padding: 10px;
+$preview-img-size-mobile: 50vw;
+$preview-img-size: 120px;
+
+* {
+    font-family: 'Roboto', sans-serif;
+    // outline: 1px solid magenta;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: rgb(6,69,173);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.1em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1.0em;
+}
+
+h6 {
+    font-size: 0.8em;
+}
+
+p {
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+div#navbar {
+    float: none;
+    height: unset;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 0;
+    position: relative;
+    overflow: auto;
+    background-color: #112;
+    color: #EED;
+    a {
+        color: #DDF;
+    }
+    div#nav {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 100%;
+
+        font-size: 1.2em;
+        font-weight: bold;
+        font-style: oblique;
+        text-align: center;
+
+
+        ul {
+            width: 100%;
+            margin: 0;
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                padding: 0 1em 0 1em;
+                margin: 0;
+                display: inline;
+            }
+        }
+    }
+
+    div#profile {
+        display: inline-block;
+        position: relative;
+        bottom: unset;
+        float: none;
+        text-align: center;
+
+        box-sizing: border-box;
+        width: 100%;
+
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+        img.profile-photo {
+            width: 60%;
+            max-width: 300px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .icon {
+            font-size: 3em;
+        }
+
+        address {
+            font-size: 0.8em;
+            margin-bottom: 1em;
+        }
+    }
+
+}
+
+section {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+    &:first-child {
+        margin-top: 0em;
+    }
+}
+
+main {
+    margin-top: 10px;
+    margin-left: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+    div#navbar {
+        float: left;
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: $navbar-width-small;
+
+        div#nav {
+            display: inline-block;
+            width: $navbar-width-small;
+            font-size: 1.2em;
+            font-weight: bold;
+            font-style: oblique;
+            text-align: right;
+            box-sizing: border-box;
+            width: 100%;
+
+            ul li {
+                display: block;
+                padding: 0 1em 0 0;
+                margin: 0.5em 0 0.5em 0;
+            }
+        }
+
+        div#profile {
+            display: inline-block;
+            left: 0;
+            width: 100%;
+            padding-bottom: 20px;
+
+            .icon {
+                font-size: 2em;
+            }
+        }
+    }
+
+    main {
+        margin-left: $navbar-width-small;
+        max-width: 1024px;
+        // padding: $main-padding;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    div#navbar {
+        width: $navbar-width-large;
+    }
+
+    main {
+        margin-left: $navbar-width-large;
+    }
+}
+
+.publications .highlight {
+    background-color: #FFE;
+}
+
+.publications .publication {
+    width: 100%;
+    // padding: 10px 10px 10px 10px;
+    padding: 10px 0 10px 0;
+    border-top: 1px black solid;
+
+    img.preview {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: $preview-img-size-mobile;
+        max-width: 300px;
+    }
+
+    .title,
+    .author,
+    .journal,
+    .content {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: block;
+        text-align: left;
+    }
+
+    .title {
+        font-size: 1.3em;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+    }
+
+    .author {
+        font-size: 1em;
+    }
+
+    .journal {
+        font-size: 1.2em;
+
+        // line-height: 2em;
+        ul {
+            list-style-type: none;
+            margin: 0.5em 0 0 0;
+            padding: 0;
+            li {
+                padding: 0;
+                margin: 0.5em 0 0 0;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        min-height: $preview-img-size;
+
+        img.preview {
+            float: left;
+            max-width: $preview-img-size;
+            max-height: $preview-img-size;
+        }
+
+        .title,
+        .author,
+        .journal,
+        .content {
+            margin-left: $preview-img-size + 20px;
+        }
+
+        .author {
+            font-size: 1em;
+        }
+
+        .journal {
+            font-size: 1em;
+
+            ul {
+                margin: 0.5em 0 0 0;
+                li {
+                    display: inline;
+                    margin: 0.5em 1em 0 0;
+                }
+            }
+        }
+    }
+}
+
+ul {
+    margin: 0;
+    li {
+        margin-top: 1em;
+    }
+}
