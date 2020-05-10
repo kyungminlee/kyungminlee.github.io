@@ -58,7 +58,7 @@ div#navbar {
       list-style-type: none;
       padding: 0; }
       div#navbar div#nav ul li {
-        padding: 0 1em 0 1em;
+        padding: 0 0.2em 0 0.2em;
         margin: 0;
         display: inline; }
   div#navbar div#profile {
